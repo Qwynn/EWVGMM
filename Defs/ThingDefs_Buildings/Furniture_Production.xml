@@ -343,51 +343,5 @@
 			<li>Smithing</li>
 		</researchPrerequisites>
 	</ThingDef>
-
-<!-- Unpowered -->	
-
-    <ThingDef ParentName="BuildingBase">
-        <DefName>TableWoodworking</DefName>
-        <label>woodworking table</label>
-        <ThingClass>Building_WorkTable_HeatPush</ThingClass>
-        <Description>A small woodworking table.</Description>
-        <graphicData>
-            <texPath>sawmill</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(3,1)</drawSize>
-        </graphicData>
-		<stuffCategories>
-			<li>Stony</li>
-			<li>Woody</li>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>70</costStuffCount>
-        <CostList>
-            <Steel>30</Steel>
-        </CostList>
-        <AltitudeLayer>Building</AltitudeLayer>
-        <statBases>
-            <MaxHitPoints>180</MaxHitPoints>
-            <WorkToBuild>850</WorkToBuild>
-            <Flammability>0</Flammability>
-        </statBases>
-        <useHitPoints>True</useHitPoints>
-        <Size>(3,1)</Size>
-        <DesignationCategory>Production</DesignationCategory>
-        <Passability>Impassable</Passability>
-        <hasInteractionCell>True</hasInteractionCell>
-        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-        <surfaceType>Item</surfaceType>
-        <inspectorTabs>
-            <li>ITab_Bills</li>
-        </inspectorTabs>
-		<comps>
-			<li Class="CompProperties_AffectedByFacilities">
-				<linkableFacilities>
-					<li>ToolCabinet</li>
-				</linkableFacilities>
-			</li>
-		</comps>
-    </ThingDef>	
 	
 </ThingDefs>

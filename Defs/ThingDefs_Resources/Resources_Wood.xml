@@ -20,7 +20,7 @@
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 		</statBases>
 		<thingCategories>
-			<li>WoodTypes</li>
+			<li>WoodLogs</li>
 		</thingCategories>
 		<stuffProps>
 			<categories>

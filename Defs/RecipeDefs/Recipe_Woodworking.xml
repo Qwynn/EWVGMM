@@ -6,7 +6,7 @@
 		<defName>MakeWoodLumberAny</defName>
 		<label>Make any lumber</label>
 		<description>Process raw logs into lumber for construction.</description>
-		<workerCounterClass>RecipeWorkerCounter_MakeStoneBlocks</workerCounterClass>
+		<workerCounterClass>ExpandedWoodworking.RecipeWorkerCounter_MakeWoodLumber</workerCounterClass>
 		<ingredients>
 			<li>
 				<filter>

@@ -1,0 +1,76 @@
+﻿<RecipeDefs>
+
+<!-- Charcoal -->		
+	
+	<RecipeDef>
+		<defName>MakeCharcoal</defName>
+		<label>make charcoal</label>
+		<description>Makes charcoal from wood.</description>
+		<jobString>Making charcoal.</jobString>
+		<workAmount>500</workAmount>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>WoodLogs</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<Charcoal>25</Charcoal>
+		</products>
+		<fixedIngredientFilter>
+				<categories>
+					<li>WoodLogs</li>
+				</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>FueledForge</li>
+			<li>ElectricForge</li>
+		</recipeUsers>
+	</RecipeDef>
+ 
+<!-- Wire --> 
+ 
+	<RecipeDef>
+		<defName>SpinWire</defName>
+		<label>spin metal wire</label>
+		<description>Makes metal wire out of any metal.</description>
+		<jobString>Making wire.</jobString>
+		<workAmount>1000</workAmount>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MetalIngots</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<Wire>25</Wire>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>MetalIngots</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>ElectricSmithy</li>
+			<li>FueledSmithy</li>
+			<li>FueledForge</li>
+			<li>ElectricForge</li>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef>	
+	
+</RecipeDefs>
